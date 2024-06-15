@@ -29,7 +29,7 @@ const OrdersPage = () => {
   };
 
   return (
-    <Box>
+    <Box display="flex" alignItems="center" justifyContent="center" h={"100vh"} w={'100vw'}>
       <Tabs>
         <TabList>
           <Tab>Active Sale Orders</Tab>

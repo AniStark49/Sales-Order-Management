@@ -53,7 +53,7 @@ const SaleOrderForm = ({ order, onClose, readOnly }) => {
   }
 
   return (
-    <Box p={4}>
+    <Box display="flex" alignItems="center" justifyContent="center" h={"100vh"} w={'100vw'}>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormControl isInvalid={errors.customer_id}>
           <FormLabel>Customer ID</FormLabel>

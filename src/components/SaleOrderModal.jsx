@@ -10,7 +10,9 @@ const SaleOrderModal = ({ isOpen, onClose, order }) => {
         <ModalHeader>{order ? 'Edit Sale Order' : 'Create Sale Order'}</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <SaleOrderForm order={order} onClose={onClose} />
+         <div>
+          Hello world
+         </div>
         </ModalBody>
         <ModalFooter>
           <Button colorScheme="blue" mr={3} onClick={onClose}>
